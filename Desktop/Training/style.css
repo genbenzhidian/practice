@@ -67,8 +67,16 @@ li {
 /*-------------------------------------------
 Mainvisual
 -------------------------------------------*/
+#mainvisual{
+  margin-bottom: 80px;
+}
 
-
+#mainvisual img{
+  width: 100%;
+  max-width: 1920px;
+  height: 600px;
+  object-fit: cover;
+}
 
 /*-------------------------------------------
 About
@@ -91,6 +99,20 @@ About
 Bicycle
 -------------------------------------------*/
 
-  /*-------------------------------------------
-  Bicycle
-  -------------------------------------------*/
+#bicycle ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+#bicycle li {
+  width: 32%;
+}
+
+/*-------------------------------------------
+Footer
+-------------------------------------------*/
+#footer{
+  font-size: 0.5rem;
+  padding: 10px 0;
+  text-align: center;
+}
